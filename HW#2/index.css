@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Roboto';
+    src: local("Roboto"), url(./fonts/Roboto-Bold.ttf) format("truetype");
+    font-size: 32px;  
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local("Roboto"),url(./fonts/Roboto-Regular.ttf) format("truetype");
+    font-size: 16px;
+}
+body
+{
+    font-family: "Roboto",serif;
+}
+h1{
+    font-size: 32px;
+    padding-left: 42%;
+    letter-spacing: 0.5px;
+}
+p{
+    font-size:16px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+input{
+    /* border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-right: 1px solid white; */
+    font-size: 14px;
+    border: none;
+    padding-top: 50px;
+    padding-left: 480px;
+    text-transform: none;
+    outline: none;/*Устанавливает расстояние между рамкой, созданной с помощью свойства outline, и краем или границей элемента добавленной через border*/
+}
+button{
+    background-color: #212A2F;
+    color: white;
+    border: none;
+    font-family: 'Roboto';
+    height: 40px;
+    border-radius: 2px;
+    width: 90px;
+    margin-left: 370px;
+    cursor: pointer;
+}
+.rectangle
+{
+    width: 620px;
+    height: 3px;
+    background: #212A2F;
+    margin-left:400px;
+}
+nav{
+    margin:0 auto;
+    /* width: fit-content; */
+    text-align: center;
+}
+#join{
+    text-decoration: none;
+    color: #74797C;
+}
