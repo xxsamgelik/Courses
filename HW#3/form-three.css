@@ -1,0 +1,31 @@
+.square {
+	width: 100px;
+	height: 100px;
+	background-color: pink;
+    box-shadow: 
+    100px 100px blue,
+    200px 200px greenyellow;   
+}
+.square2
+{
+    width: 100px;
+    height: 100px;
+    margin-left: 30%;
+    /* box-shadow: 100px 60px 0px 150px green; */
+    background-color: white;
+    box-shadow: 230px 300px white,
+    120px 150px 0px 200px green;
+}
+.s1,.s2,.s3,.s4
+{
+    width: 80px;
+    color: blue;
+    height: 40px;
+    border: 1px solid blue;
+    display: inline-block;
+    position: relative;
+    margin-top: 10%;
+}
+.s2{
+    transform:  rotate(15deg);
+}

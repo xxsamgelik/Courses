@@ -1,0 +1,333 @@
+body{
+    font-family: Poppins,serif;
+    font-weight: 700;
+}
+#Our
+{
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 28px;
+    margin-left: 46%;
+}
+#Blog
+{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 3%;
+}
+#small-rec
+{
+    border-radius: 20px;
+    width: 50px;
+    height: 8px;
+    background-color:#FD749B;
+    margin-left: 48.5%;
+    margin-top: 1%;
+}
+.rectangles
+{
+    margin-left: 10%;
+    width: 1300px;
+    max-width: 1300px;
+    height: 400px;
+    position: relative;
+    max-height: 400px;
+    display: inline-block;
+}
+.normal-rec
+{
+    width: calc(690px - 320px);
+    height: calc(490px - 204px);
+    border-radius: 15px;
+    z-index: 1;
+    background: #FFFFFF;
+    left: 6%;
+    position: relative;
+    display: inline-block;
+    border: 1px solid black;
+}
+.normal-rec2
+{
+    width: calc(680px - 320px);     
+    height: calc(490px - 204px);
+    border-radius: 15px;
+    z-index: 1;
+    background: #FFFFFF;
+    right: 52px;
+    position: relative;
+    border: 1px solid black;
+    display: inline-block;
+}
+.big-rec
+{
+    width: calc(500px - 35px);
+    height: calc(500px - 142px);
+    z-index: 5;
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 15px;
+    border: 1px solid black;
+    display: inline-block;
+}
+#DATA
+{
+    font-size:10px;
+    color: gray;
+    margin-left: 10%;
+}
+#TECHNOLOGY
+{
+    color: gray;
+    font-size: 10px;
+    margin-left: 2%;
+}
+.rect
+{
+    width: 2px;
+    height: 6%;
+    background-color: gray;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top:6%;
+}
+#HOW
+{
+    font-size: 20px;
+    color: gray;
+    margin-left:10%;
+}
+#PAR
+{
+    color: gray;
+    font-size: 10px;
+    margin-left: 10%;
+}
+#DATA2
+{
+    font-size:10px;
+    color: gray;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#BUSINESS
+{
+    color: gray;
+    font-size: 10px;
+    margin-left: 2%;
+}#BUSINESS3
+{
+    color: gray;
+    font-size: 10px;
+    margin-left: 2%;
+}
+.rect2
+{
+    width: 2px;
+    height: 6%;
+    background-color: gray;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 6%;
+}
+#text-grand
+{
+    color: gray;
+    margin-left: 10%;
+    font-size: 24px;
+}
+#PAR2
+{
+    color: gray;
+    font-size: 12px;
+    margin-left: 10%;
+}
+.rect3
+{
+    width: 2px;
+    height: 6%;
+    background-color: gray;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 6%;
+}
+#DATA3
+{
+    font-size:10px;
+    color: gray;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#PAR3
+{
+
+    color: gray;
+    font-size: 10px;
+    margin-left: 10.5%;
+}
+#text-products
+{
+    color: gray;
+    margin-left: 11%;
+    font-size: 20px;
+}
+#btn-1
+{
+    width: 30%;
+    height: 15%;
+    background-color: #888888;
+    border-radius: 105px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size:9px;
+    color: white;
+    font-weight: 700;
+}#btn-2
+{
+    width: 30%;
+    height: 15%;
+    background-color: #888888;
+    border-radius: 105px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+    font-weight: 700;
+    font-size: 11px;
+}#btn-3
+{
+    width: 30%;
+    height: 15%;
+    background-color: #888888;
+    border-radius: 105px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+    font-size: 9px;
+    font-weight: 700;
+}
+.normal-rec:hover
+{
+    transform: scale(1.2);
+    z-index: 10;
+}
+.normal-rec:hover #PAR
+{
+    color: black;
+}
+.normal-rec:hover #TECHNOLOGY
+{
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.normal-rec:hover #DATA
+{
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.normal-rec:hover .rect
+{
+    background-image: linear-gradient(#FD749B, #281AC8);
+}
+.normal-rec:hover #HOW {
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.normal-rec:hover button {
+    background-image: linear-gradient(#FD749B, #281AC8);
+    cursor: pointer;
+}
+.normal-rec2:hover button{
+    background-image: linear-gradient(#FD749B, #281AC8);
+    cursor: pointer;
+}
+.normal-rec2:hover #BUSINESS3
+{
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}.normal-rec2:hover #DATA3
+{
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}.normal-rec2:hover #DATA3
+{
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+.normal-rec2:hover #PAR3
+{
+    color: black;
+}.normal-rec2:hover #text-products
+{
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+.normal-rec2:hover
+{
+    transform: scale(1.2);
+    z-index: 10;
+}
+.big-rec:hover
+{
+    transform: scale(1.2);
+    z-index: 10;
+}
+.big-rec:hover button{
+    background-image: linear-gradient(#FD749B, #281AC8);
+    cursor: pointer;
+}
+.big-rec:hover #DATA2
+{
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.big-rec:hover #BUSINESS
+{
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.big-rec:hover .rect2{
+    background-image: linear-gradient(#FD749B, #281AC8);
+}
+.big-rec:hover #text-grand
+{
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.big-rec:hover #PAR2
+{
+    color: black;
+}
