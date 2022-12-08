@@ -243,6 +243,6 @@ main
 }
 .table2:hover{
     transform: scale(1.1);
-    box-shadow: 10px -16px black;
+    box-shadow: 10px -16px gray;
 
 }
