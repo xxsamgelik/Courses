@@ -1,0 +1,245 @@
+.navbar-nav .nav-link.active {
+  color: white;
+  font-size: 13px;
+  margin-left: 40px;
+  display: flex;
+  flex: 1 0 40%;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 33px;
+  display: flex;
+  flex: 1 0 40%;
+}
+
+body {
+  font-family: "Raleway", serif;
+  font-weight: 700;
+}
+
+.seti {
+  display: flex;
+  margin-top: 10px;
+}
+
+.col-12 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.row {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.wrap {
+  width: 100%;
+  background: linear-gradient(rgba(37, 43, 73, 0.5), rgba(37, 43, 73, 0.5)), url("../img/container-main.png");
+  background-size: cover;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+.container5 {
+  margin-top: 50px;
+}
+
+.img1:hover {
+  background-color: rgba(255, 67, 67, 0.8);
+}
+
+.rectangle {
+  width: 100%;
+  max-width: 1100px;
+  height: 2px;
+  margin-left: 20px;
+  background-color: #BABBC5;
+}
+
+h1 {
+  color: white;
+  font-weight: 900;
+  text-align: center;
+  font-size: 64px;
+  margin-top: 150px;
+  line-height: 75px;
+}
+
+.lorem-main {
+  font-size: 24px;
+  color: white;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  max-width: 1000px;
+  margin-top: 50px;
+}
+
+.button-main {
+  background-color: #FF4343;
+  color: white;
+  font-size: 24px;
+  font-weight: 900;
+  border: none;
+  height: 80px;
+  width: 370px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 900;
+  margin-top: 30px;
+}
+
+.gapt {
+  font-size: 18px;
+  color: #6C7279;
+  padding-top: 30px;
+}
+
+.row {
+  width: 100%;
+}
+
+h2 {
+  font-size: 18px;
+  color: #FF4343;
+}
+
+.persont {
+  color: #6C7279;
+}
+
+.carousel {
+  width: 100%;
+  max-width: 741px;
+}
+
+.container2 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container4 {
+  width: 100%;
+  padding-left: 100px;
+}
+
+.rec {
+  background-color: #5C3249;
+  width: 100%;
+  max-width: 678px;
+  color: white;
+  max-height: 63vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rectext {
+  width: 100%;
+  padding-left: 70px;
+  height: 47.2vh;
+  margin-top: 150px;
+  padding-right: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rect {
+  @import url("https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap");
+  font-family: "Cardo", serif;
+  font-size: 24px;
+  width: 320px;
+  display: flex;
+  font-weight: 400;
+}
+
+.recth {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.carousel-indicators {
+  background-color: #FF4343;
+}
+
+.last {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+
+.lastt {
+  text-align: center;
+}
+
+button:hover {
+  background-color: #E71414;
+}
+
+button:active {
+  background: #FF4343;
+  box-shadow: 4px 4px 30px #FF4343;
+}
+
+.divtext {
+  margin-top: 50px;
+}
+
+footer {
+  background: linear-gradient(180deg, rgb(35, 46, 111), rgb(16, 19, 47) 80%);
+}
+
+.hiddentext {
+  display: none;
+}
+
+footer {
+  width: 100%;
+  height: 28vh;
+  text-align: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.location {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+}
+
+.int {
+  color: #808080;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name {
+  color: white;
+}
+
+.location2 {
+  color: white;
+  font-weight: 400;
+}
+
+@media (width: 320px) {
+  h1 {
+    display: none;
+  }
+  .hiddentext {
+    display: block;
+  }
+}/*# sourceMappingURL=styles.css.map */
